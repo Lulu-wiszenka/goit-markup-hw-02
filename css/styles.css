@@ -110,7 +110,7 @@ body {
 
 /*dorabotaju*/
 .hidden-title {
-  color: var(--text-white-color);
+  visibility: hidden;
 }
 
 .advantages-list-title {
@@ -224,6 +224,8 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--color-head-link-title);
+  /*Цвет фона прописан согласно макета, 
+  но в браузере отображается слишком светлым*/
   background: var(--background-grey-color);
   border: 2px solid var(--background-grey-color);
   border-radius: 4px;
@@ -241,8 +243,7 @@ body {
   width: 370px;
   height: 294px;
 }
-
-.work-examples-link-text {
+.work-examples-link {
   text-decoration: none;
 }
 
